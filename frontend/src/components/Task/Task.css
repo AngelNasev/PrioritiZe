@@ -1,0 +1,29 @@
+.white-box-task {
+    width: 1000px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.comment-header {
+    background-color: #5F9DF7 !important;
+}
+.comment-body {
+    border-left: 2px solid #5F9DF7 !important;
+    border-right: 2px solid #5F9DF7 !important;
+    border-bottom: 2px solid #5F9DF7 !important;
+}
+.card.comment-card {
+    border: none !important;
+}
+.card-header.comment-header {
+    border-bottom: none !important;
+}
+.send-button {
+    background-color: #5F9DF7;
+    color: #FFF7E9;
+}
+.send-button:hover {
+    background-color: #1746A2;
+    color: #FFF7E9;
+}

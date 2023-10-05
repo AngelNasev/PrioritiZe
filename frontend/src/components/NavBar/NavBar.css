@@ -1,0 +1,15 @@
+.prioritize {
+    font-family: 'Monda', serif !important;
+    font-size: 32px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    margin-left: 1.5%
+}
+.nav-background {
+    background-color: #5F9DF7;
+    border-bottom: #1746A2 1px solid;
+}
+.nav-link:hover {
+    color: white !important;
+}

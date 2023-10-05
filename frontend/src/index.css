@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.invalid {
+  border-color: #FF0000 !important;
+  color: #FF0000 !important;
+  background-color: #FFFFFF !important;
+}
+
+.pill-btn {
+  display: flex;
+  width: 153px;
+  height: 34px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background: #FF731D;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.pill-btn:hover {
+  background-color: #1746A2;
+  color: white;
+}
+
+.input-border {
+  border: 2px #5F9DF7 solid;
+}
+
+.input-border:focus, .input-border:active {
+  box-shadow: 0 0 0 0.25rem rgba(23, 70, 162,0.25) !important;
+  border: 2px #1746A2 solid;
+}
+
+.dark-blue {
+  color: #1746A2;
+}
+.light-blue {
+  color:  #5F9DF7;
+}
+.orange {
+  color: #FF731D;
+}
+.cream {
+  color: #FFF7E9;
+}
+
+.top-margin {
+  margin-top: 6rem!important;
+}
